@@ -49,13 +49,13 @@
                 <snapshotRepository>
                     <id>apiSnapshotRepository</id>
                     <name>Internal Snapshots Repository</name>
-                    <url>${snapshot.distribution.url}</url>
+                    <url>${http://localhost:8081}</url>
                     <uniqueVersion>false</uniqueVersion>
                 </snapshotRepository>
                 <repository>
                     <id>apiReleaseRepository</id>
                     <name>Internal Maven Release Repository</name>
-                    <url>${releases.distribution.url}</url>
+                    <url>${http://localhost:8081}</url>
                 </repository>
             </distributionManagement>
 
